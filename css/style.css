@@ -331,6 +331,7 @@ p:last-child {
 }
 
 .background-div {
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
