@@ -1,0 +1,165 @@
+@media only screen and (min-width:1920px) {}
+
+@media (1500px <=width <=1919px) {}
+
+@media (1400px <=width <=1499px) {}
+
+@media (1200px <=width <=1399px) {}
+
+@media screen and (max-width: 1199px) {
+    .teravon-cursor {
+        display: none;
+    }
+    .about-sticky {
+        left: 25vw;
+        width: 36vh;
+        height: 50vh;
+    }
+    .service-collapse {
+        width: 75%;
+    }
+    .collapse-btn {
+        -webkit-text-stroke: 1.5px;
+    }
+    .service-box {
+        height: 40vh;
+    }
+    .service-overlay {
+        opacity: 1;
+    }
+    .service-overlay>aside {
+        font-size: 1.6rem;
+    }
+    .collapse-btn>span::before {
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .about-sticky {
+        left: 30vw;
+        width: 30vh;
+        height: 40vh;
+    }
+    .about-para {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 3.5rem;
+        font-size: 51px;
+    }
+    .heading-second.second,
+    .service-title {
+        font-size: 8.5rem;
+    }
+    .service-collapse {
+        width: 100%;
+        margin-top: 8vh;
+    }
+    .service-row {
+        gap: 20px;
+    }
+    .service-column {
+        width: calc(100% / 3 - 13.4px);
+    }
+    .service-box {
+        height: 25vh;
+    }
+    .service-overlay>aside {
+        font-size: 1.3rem;
+    }
+    .ft-right>p {
+        margin-bottom: 10px;
+    }
+    .footer-middle {
+        margin-top: -5vh;
+        line-height: 1.3;
+    }
+    .achievement-section {
+        padding-bottom: 20vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        bottom: 0px;
+        padding: 15px 30px;
+    }
+    .heading-second.second,
+    .service-title {
+        font-size: 4rem;
+        line-height: 0.8;
+    }
+    .navbar-nav {
+        margin-bottom: 30px;
+    }
+    .about-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-para {
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    .about-row .comn-btn {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .achievement-section {
+        padding-top: 40vh;
+        padding-bottom: 15vh;
+    }
+    .service-small-text {
+        font-size: 0.6rem;
+    }
+    .collapse-btn {
+        padding: 15px;
+        font-size: 5vw;
+        -webkit-text-stroke: .5px;
+    }
+    .collapse-btn>span::before {
+        left: -10px;
+        width: 5px;
+        height: 5px;
+    }
+    .service-column {
+        width: 100%;
+    }
+    .service-box {
+        height: 250px;
+    }
+    .footer-top {
+        padding: 0px 20px 50px;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .ft-left,
+    .ft-right {
+        width: 100%;
+    }
+    .footer-title {
+        font-size: 18px;
+    }
+    .footer-list li a,
+    .ft-right>p {
+        font-size: 18px;
+    }
+    .footer-bootom-text {
+        padding-bottom: 90px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .banner-logo {
+        max-width: 95%;
+    }
+    .about-sticky {
+        left: 25vw;
+    }
+}
